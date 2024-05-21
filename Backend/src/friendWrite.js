@@ -7,7 +7,7 @@ module.exports.handler = async (event) => {
     const pathRequest = event?.path?.split("/")[1];
 
     // Validation path
-    if (pathRequest != "write") {
+    if (pathRequest != "friend") {
       return buildResponse(400, "Bad Request!", null);
     }
 

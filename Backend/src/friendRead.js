@@ -1,5 +1,5 @@
 const { buildResponse } = require("/opt/utilities");
-const { getUser, getUserId } = require("./lib/tool");
+const { getUser, getUserId } = require("./lib/controllers");
 
 module.exports.handler = async (event) => {
   try {

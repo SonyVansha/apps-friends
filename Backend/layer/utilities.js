@@ -9,7 +9,7 @@ const buildResponse = (statusCode, message, body) => {
        statusCode,
        headers: {
           "Content-Type": "application/json",
-          "Access-Control-Allow-Headers" : "Content-Type,X-Amz-Date,Authorization,DeviceId,deviceId,Deviceid,X-Api-Key,X-Amz-Security-Token",
+          "Access-Control-Allow-Headers" : "Content-Type,X-Amz-Date,Authorization,userId,X-Api-Key,X-Amz-Security-Token",
           "Access-Control-Allow-Origin": "*",
           "Access-Control-Allow-Methods": "OPTIONS,POST,GET,PUT"
        },
